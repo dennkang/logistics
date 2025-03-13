@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF3E41;
-    --secondary: #51CFED;
+    --primary: white;
+    --secondary: red;
     --light: #F8F2F0;
     --dark: #060315;
 }
@@ -42,7 +42,7 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #FFFFFF;
+    color: black;
 }
 
 .btn-square {
@@ -84,7 +84,7 @@
     position: relative;
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color: green;
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
@@ -129,7 +129,7 @@
         height: 5px;
         top: -6px;
         left: 50%;
-        background: #FFFFFF;
+        background: black;
         transition: .5s;
     }
 
@@ -205,9 +205,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: redF;
     background: transparent;
-    border: 1px solid #FFFFFF;
+    border: 1px solid white;
     border-radius: 45px;
     font-size: 22px;
     transition: .5s;
